@@ -1,0 +1,164 @@
+[07:37:37] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[07:37:37] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[07:37:37] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[07:37:38] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[07:37:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:37:41] [ServerMain/INFO]: Loaded 1174 recipes
+[07:37:41] [ServerMain/INFO]: Loaded 1271 advancements
+[07:37:41] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[07:37:41] [Server thread/INFO]: Loading properties
+[07:37:41] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[07:37:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:37:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:37:42] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[07:37:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[07:37:42] [Server thread/INFO]: Default game type: SURVIVAL
+[07:37:42] [Server thread/INFO]: Generating keypair
+[07:37:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:37:42] [Server thread/INFO]: Using default channel type
+[07:37:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[07:37:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.16.0/adventure-bom-4.16.0.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
+[07:37:42] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[07:37:43] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-api\4.16.0\adventure-api-4.16.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-key\4.16.0\adventure-key-4.16.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-platform-bukkit\4.3.2\adventure-platform-bukkit-4.3.2.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-platform-api\4.3.2\adventure-platform-api-4.3.2.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.2\adventure-text-serializer-bungeecord-4.3.2.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-platform-facet\4.3.2\adventure-platform-facet-4.3.2.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-platform-viaversion\4.3.2\adventure-platform-viaversion-4.3.2.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-text-minimessage\4.16.0\adventure-text-minimessage-4.16.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-text-serializer-gson\4.16.0\adventure-text-serializer-gson-4.16.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\adventure-text-serializer-json\4.16.0\adventure-text-serializer-json-4.16.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\net\kyori\option\1.0.0\option-1.0.0.jar
+[07:37:43] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\f9977\workspace\minecraft_server\server\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[07:37:43] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
+[07:37:43] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[07:37:43] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[07:37:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:37:43] [Server thread/INFO]: Preparing level "world"
+[07:37:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:37:44] [Server thread/INFO]: Time elapsed: 600 ms
+[07:37:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:37:44] [Server thread/INFO]: Time elapsed: 16 ms
+[07:37:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:37:44] [Server thread/INFO]: Time elapsed: 15 ms
+[07:37:44] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
+[07:37:44] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.4)...
+[07:37:44] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[07:37:45] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\f9977\workspace\minecraft_server\server\plugins\MythicMobs\data
+[07:37:45] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\f9977\workspace\minecraft_server\server\plugins\MythicMobs\data\worlds
+[07:37:47] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[07:37:47] [Server thread/INFO]: [MythicMobs] Loading Items...
+[07:37:47] [Server thread/INFO]: [MythicMobs] File ExampleItems.yml not found! Creating a new one...
+[07:37:47] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[07:37:47] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[07:37:47] [Server thread/INFO]: [MythicMobs] File ExampleSkills.yml not found! Creating a new one...
+[07:37:47] [Server thread/INFO]: [MythicMobs] File VanillaMobs.yml not found! Creating a new one...
+[07:37:47] [Server thread/INFO]: [MythicMobs] File ExampleMobs.yml not found! Creating a new one...
+[07:37:47] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[07:37:47] [Server thread/INFO]: [MythicMobs] File ExampleDropTables.yml not found! Creating a new one...
+[07:37:47] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[07:37:47] [Server thread/INFO]: [MythicMobs] File ExampleRandomSpawns.yml not found! Creating a new one...
+[07:37:47] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[07:37:47] [Server thread/INFO]: [MythicMobs] Spawners folder not found! Creating...
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[07:37:47] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[07:37:47] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[07:37:47] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
+[07:37:47] [Server thread/INFO]: Running delayed init tasks
+[07:37:47] [Server thread/INFO]: Done (6.209s)! For help, type "help"
+[07:37:47] [Server thread/INFO]: Timings Reset
+[07:37:55] [Server thread/INFO]: Stopping the server
+[07:37:55] [Server thread/INFO]: Stopping server
+[07:37:55] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.8.2-6a2683d7
+[07:37:55] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[07:37:55] [Server thread/INFO]: [MythicMobs] - 
+[07:37:55] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[07:37:55] [Server thread/INFO]: [MythicMobs] - 
+[07:37:55] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[07:37:55] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[07:37:55] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[07:37:55] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[07:37:55] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[07:37:55] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[07:37:55] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[07:37:55] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[07:37:55] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[07:37:55] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[07:37:55] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[07:37:55] [Server thread/INFO]: Saving players
+[07:37:55] [Server thread/INFO]: Saving worlds
+[07:37:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:37:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:37:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:37:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.70s
+[07:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:37:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.50s
+[07:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:37:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:37:56] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
+[07:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:37:56] [Server thread/INFO]: Flushing Chunk IO
+[07:37:56] [Server thread/INFO]: Closing Thread Pool
+[07:37:56] [Server thread/INFO]: Closing Server
